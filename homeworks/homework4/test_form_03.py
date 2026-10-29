@@ -11,7 +11,7 @@ def test_positive_form():
         # 2. Открытие страницы
         driver.get("https://qa-guru.github.io/one-page-form/text-box.html")
         driver.maximize_window()
-        time.sleep(5)  # Пауза, чтобы визуально заметить открытие
+        time.sleep(5)  # Пауза, чтобы визуально заметить открытие.
 
         # 3. Поиск элементов и заполнение полей
         # Находим поле Full Name по его ID и вводим текст
